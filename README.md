@@ -1,5 +1,7 @@
 # Odin
 
+Official Exercism forum thread about this track: https://forum.exercism.org/t/new-track-odin-programming-language/7379
+
 Borring concepts from other C-based/C-adjacent language tracks:
 - https://github.com/exercism/c
 - https://github.com/exercism/zig
@@ -23,6 +25,8 @@ Borring concepts from other C-based/C-adjacent language tracks:
 - https://exercism.org/docs/building/tracks/new/add-initial-exercises
 - https://exercism.org/docs/building/tracks/new/setup-continuous-integration
 - https://exercism.org/docs/building/tooling/test-runners
+- https://github.com/exercism/generic-track
+- https://github.com/exercism/problem-specifications
 
 *Below is the previous `generic-track` readme; will delete later.*
 
