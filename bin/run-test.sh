@@ -3,8 +3,11 @@
 # Exit script if any subcommands fail
 set -e
 
-function hyphen_to_snake_case() {
-    echo $1 | tr '[:upper:]' '[:lower:]' | tr '-' '_'
+# TODO: Pull info from config, similar to how the Zig track does it:
+# https://github.com/exercism/zig/blob/main/bin/run-tests
+
+function to_snake_case() {
+    tr ' ' '_' | tr '-' '_'| sed -r 's/([a-z0-9])([A-Z])/\1_\2/g' | sed -r 's/[^a-zA-Z0-9_]//g' | tr '[:upper:]' '[:lower:]'
 }
 
 function run_test() {
@@ -17,7 +20,7 @@ function run_test() {
         echo "Running test for exercise: ${exercise_name}"
     
         # Turn something like "hello-world" into "hello_world"
-        exercise_safe_name=$(hyphen_to_snake_case ${exercise_name})
+        exercise_safe_name=$(echo $exercise_name | to_snake_case)
     
         # "exercises/practice/hello_world.odin"
         solution_file="${exercise_path}/${exercise_safe_name}.odin"
