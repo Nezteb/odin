@@ -1,3 +1,33 @@
+# Odin
+
+Borring concepts from other C-based/C-adjacent language tracks:
+- https://github.com/exercism/c
+- https://github.com/exercism/zig
+
+## TODO
+
+- Figure out how to build an Odin test runner (currently using bash script for this)
+- [Highlight.js support for Odin](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)
+
+## Odin Docs
+
+- [Odin website](http://odin-lang.org)
+- [Odin GitHub](https://github.com/odin-lang/Odin)
+- [Odin examples](https://github.com/odin-lang/examples)
+- [Odin language server](https://github.com/DanielGavin/ols)
+
+## Exercism Docs
+
+- https://exercism.org/docs/building/tracks/new/request-new
+- https://exercism.org/docs/building/tracks/new/add-first-exercise
+- https://exercism.org/docs/building/tracks/new/add-initial-exercises
+- https://exercism.org/docs/building/tracks/new/setup-continuous-integration
+- https://exercism.org/docs/building/tooling/test-runners
+
+*Below is the previous `generic-track` readme; will delete later.*
+
+---
+
 # Request a new Exercism language track
 
 If you wish to request a new track, **you must post in the [Support category on the Exercism Community Forum][forum-support]** to discuss this with the team.

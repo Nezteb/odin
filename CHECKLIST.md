@@ -4,10 +4,10 @@ This issue helps keep track of the tasks you're working on towards launching thi
 
 The next steps are:
 
-- [ ] [Join our community](https://exercism.org/docs/building/tracks/new/join-our-community)
-- [ ] [Select programming language variant](https://exercism.org/docs/building/tracks/new/select-programming-language-variant) (if applicable)
-- [ ] [Select testing framework](https://exercism.org/docs/building/tracks/new/select-testing-framework)
-- [ ] [Add the first exercise](https://exercism.org/docs/building/tracks/new/add-first-exercise)
+- [X] [Join our community](https://exercism.org/docs/building/tracks/new/join-our-community)
+- [X] [Select programming language variant](https://exercism.org/docs/building/tracks/new/select-programming-language-variant) (if applicable)
+- [X] [Select testing framework](https://exercism.org/docs/building/tracks/new/select-testing-framework)
+- [X] [Add the first exercise](https://exercism.org/docs/building/tracks/new/add-first-exercise)
 - [ ] [Add initial exercises](https://exercism.org/docs/building/tracks/new/add-initial-exercises)
 - [ ] [Setup Continuous Integration](https://exercism.org/docs/building/tracks/new/setup-continuous-integration)
 - [ ] [Prepare for launch](https://exercism.org/docs/building/tracks/new/prepare-for-launch)
